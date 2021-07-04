@@ -5,7 +5,7 @@ body{
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Oswald', sans-serif;
   }
   .orange-color{
@@ -13,6 +13,7 @@ h1 {
   }
 section{
  display: flex;
+ margin-bottom: 70px;
   }
   .half-width{
    width: 50%;
@@ -24,15 +25,23 @@ section{
 .link-button{
  text-decoration: none;
   padding:10px 40px;
-    background-color: orange;
+    background-color: rgb(231, 203, 151);
            
     border-radius: 5px;
      background-image: linear-gradient(rgb(216, 120, 120), orange);
-     color: white;
+     color: rgb(238, 22, 22);
     
-     font-weight: 700;
+     font-weight: 600;
  }
 .top-banner{
+  padding: 10px;
 background-image: url(images/top-banner.png);
  background-repeat: no-repeat;
+ 
+ } 
+ .mid-banner{
+  padding: 10px;
+background-image: url(images/dream-bg.png);
+ background-repeat: no-repeat;
+ background-position: right;
  } 
